@@ -37,7 +37,7 @@ const Index = () => {
       {/* Hero Section */}
       <main className="container mx-auto px-4 py-16 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl font-bold leading-[1.15] md:leading-[1.3] pb-1 bg-gradient-hero bg-clip-text text-transparent">
             Manage Tasks Like a Pro
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
@@ -51,9 +51,9 @@ const Index = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline">
+            {/* <Button size="lg" variant="outline">
               View Demo
-            </Button>
+            </Button> */}
           </div>
 
           {/* Features Grid */}
@@ -108,7 +108,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="container mx-auto px-4 py-8 text-center border-t">
         <p className="text-muted-foreground">
-          © 2024 TaskMate. Built with care for productivity enthusiasts.
+          © 2025 TaskMate. Built with care for productivity enthusiasts.
         </p>
       </footer>
     </div>

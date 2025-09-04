@@ -217,10 +217,10 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="flex items-center gap-3">
-            <Button variant="outline" size="sm" className="hidden sm:flex">
+            {/* <Button variant="outline" size="sm" className="hidden sm:flex">
               <User className="h-4 w-4 mr-2" />
               Profile
-            </Button>
+            </Button> */}
             <Button variant="outline" size="sm" onClick={handleLogout}>
               <LogOut className="h-4 w-4 mr-2" />
               Logout
